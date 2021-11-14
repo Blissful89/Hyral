@@ -14,6 +14,7 @@ module.exports = {
   rules: {
     '@typescript-eslint/lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
     '@typescript-eslint/no-explicit-any': 0,
+    '@typescript-eslint/explicit-module-boundary-types': 0,
     'max-len': ['error', { code: 130 }],
   },
   ignorePatterns: ['node_modules', '**/lib/*', "**/*.js"],
